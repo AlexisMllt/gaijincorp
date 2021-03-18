@@ -1,0 +1,842 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+body {
+	font-family: 'Montserrat',sans-serif;
+	background-color: #F5F5F5;
+}
+
+/*First page,navbar and footer*/
+
+.navbar {
+	background-image: url("../images/banner.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+}
+
+.navbar a {
+	margin:8px;
+	color: #f20e5e;
+}
+
+#btn-white {
+    color: #f20e5e;
+}
+
+#btn-white:hover {
+	color: white;
+	transition: 1s;
+}
+.bigtitle {
+	margin: 0;
+	color:#f20e5e;
+	font-size: 50px;
+}
+
+.banner {
+	background-image: url("../images/banner.jpeg");
+	height: 70vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 0px;
+}
+
+.title-white {
+	color: white;
+}
+
+.japan {
+	color: white;
+	margin-bottom: 40px;
+}
+
+#btn-blue {
+    color: white;
+    text-decoration: none;
+    background-color: #f20e5e;
+    padding: 7px 27px;
+    border: 2px solid #f20e5e;
+    border-radius: 7px;
+}
+
+#btn-blue:hover {
+	background-color: white;
+	color: #f20e5e;
+	transition: 1s;
+}
+
+.descriptiontext {
+	text-align: center;
+	margin: 10px;
+	padding-bottom: 2px;
+}
+
+.container {
+	width: 935px;
+	margin: 0 auto;
+	text-align: center;
+}
+.containerimage img {
+	width: 45px;
+	text-align: center;
+	padding: 20px;
+}
+
+.presentation{
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.card {
+	background-color: #F5F5F5;
+	width: 300px;
+	text-align: center;
+}
+
+.card img {
+	width: 220px;
+	height: 220px;
+	padding: 16px;
+	border-radius: 50%;
+}
+
+#btn-one {
+    color: white;
+    text-decoration: none;
+    background-color: #f20e5e;
+    padding: 6px 5px;
+    border: 2px solid #f20e5e;
+    border-radius: 7px;
+}
+
+#btn-one:hover {
+	background-color: white;
+	color: #f20e5e;
+	transition: 1s;
+}
+
+#btn-second {
+    color: white;
+    text-decoration: none;
+    background-color: #f20e5e;
+    padding: 7px 5px;
+    border: 2px solid #f20e5e;
+    border-radius: 7px;
+}
+
+#btn-second:hover {
+	background-color: white;
+	color: #f20e5e;
+	transition: 1s;
+}
+
+#btn-third {
+    color: white;
+    text-decoration: none;
+    background-color: #f20e5e;
+    padding: 6px 5px;
+    border: 2px solid #f20e5e;
+    border-radius: 7px;
+}
+
+#btn-third:hover {
+	background-color: white;
+	color: #f20e5e;
+	transition: 1s;
+}
+
+.middlejap {
+	color: #f20e5e
+}
+
+.text {
+	text-align: justify;
+	padding-bottom: 3px;
+	margin: 10px;
+}
+
+.othermiddle {
+	color: #f20e5e
+}
+
+.numbers {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.number {
+	width: 300px;
+	text-align: center;
+	color: #f20e5e;
+}
+
+.titlecolor {
+	color: #f20e5e;
+	margin: 0px;
+}
+
+.othermiddle {
+	text-align: center;
+	}
+
+.subtitle {
+	margin:0;
+}
+
+.footer {
+  padding:24px 0;
+  background-color:#D4D3D9;
+  color:white;
+  height: 48px;
+}
+
+.social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.social > a {
+  font-size:25px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:2px solid #ccc;
+  margin:0 8px;
+  color: inherit;
+  opacity:0.9;
+}
+
+.social > a:hover {
+  color:#f20e5e;
+}
+
+.footer .copyright {
+  text-align:center;
+  font-size:13px;
+  color:black;
+}
+
+/*mangas page*/
+
+.mangaheader {
+	text-decoration: underline;
+	color: #f20e5e;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.containermanga {
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mangalist {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px 0px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-left:0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border-right: 0px;
+	border-left: 0px;
+}
+
+.mangatitle {
+	color: #f20e5e;
+	margin:0;
+	padding-top: 20px;
+}
+
+.mangajapanese {
+	color: #f20e5e;
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+#btn-violet {
+    color: white;
+    text-decoration: none;
+    background-color: #f20e5e;
+    padding: 7px 27px;
+    border: 2px solid #f20e5e;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+#btn-violet:hover {
+	background-color: white;
+	color: #f20e5e;
+	transition: 1s;
+}
+
+.grid-mangaun {
+    background-image: url(../images/dbz.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangadeux {
+    background-image: url(../images/naruto.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangatrois {
+    background-image: url(../images/boruto.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangaquatre {
+    background-image: url(../images/b.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangacinq {
+    background-image: url(../images/aot.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangasix {
+    background-image: url(../images/bc.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangasept {
+    background-image: url(../images/mha.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangahuit {
+    background-image: url(../images/jjk.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-manganeuf {
+    background-image: url(../images/onepiece.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangadix {
+    background-image: url(../images/fma.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangaonze {
+    background-image: url(../images/hxh.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangadouze {
+    background-image: url(../images/ff.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangatreize {
+    background-image: url(../images/ds.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangaquatorze {
+    background-image: url(../images/haikyu.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangaquinze {
+    background-image: url(../images/fw.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.grid-mangaseize {
+    background-image: url(../images/kuruko.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+    width: 250px;
+}
+
+.conclusion {
+	width: 935px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px;
+	padding-bottom: 25px;
+	font-size: 12px;
+}
+
+.conclusion img {
+	width: 35px;
+}
+/*decoration page*/
+
+.decorationlayout {
+	width: 850px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.presentationdecoration {
+	text-decoration: underline;
+	color: #f20e5e;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.grid-container {
+	background-image: url("../images/decorationone.png");
+	height: 20vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-containerone {
+	background-image: url("../images/decorationtwo.png");
+	height: 20vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-containersecond {
+	background-image: url("../images/decorationthird.png");
+	height: 20vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-containerthird {
+	background-image: url("../images/decorationfour.png");
+	height: 20vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.titledecoration {
+	color: #f20e5e;
+	margin:0;
+	padding-top: 20px;
+}
+
+.japandecoration {
+	color: #f20e5e;
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+#btn-purple {
+    color: white;
+    text-decoration: none;
+    background-color: #f20e5e;
+    padding: 7px 27px;
+    border: 2px solid #f20e5e;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+#btn-purple:hover {
+	background-color: white;
+	color: #f20e5e;
+	transition: 1s;
+}
+
+.conclusiondecoration {
+	width: 935px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 12px;
+}
+
+.conclusiondecoration img {
+	width: 35px;
+}
+
+
+/*food page*/
+
+.foodheader {
+	text-decoration: underline;
+	color: #f20e5e;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.containerfood {
+	width: 935px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.textfood {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+.foodjap {
+	color: #f20e5e;
+}
+
+.menus {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px 0px;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-left:0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	border-right: 0px;
+	border-left: 0px;
+}
+
+.japandecorationfood {
+	color: #f20e5e;
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+#btn-pink {
+    color: #f20e5e;
+    writing-mode: vertical-rl;
+    font-weight: bold;
+    font-size: 20px;
+    text-orientation: upright;
+    text-decoration: none;
+    padding: 7px 27px;
+    margin-bottom: 10px;
+}
+
+#btn-pink:hover {
+	color: white;
+	transition: 1s;
+}
+
+.grid-food {
+    background-image: url(../images/sushi.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 150px;
+    margin: 25px;
+}
+
+.grid-foodone {
+	background-image: url("../images/maki.png");
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-foodsecond {
+	background-image: url("../images/yakitori.png");
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-foodthird {
+	background-image: url("../images/curry.png");
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-foodfourth {
+	background-image: url("../images/fluffycake.png");
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-foodfifth {
+	background-image: url("../images/mochi.png");
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-foodsix {
+	background-image: url("../images/doriyaki.png");
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.grid-foodseven {
+	background-image: url("../images/taiyaki.png");
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align:center;
+	padding-top: 150px;
+	margin: 25px;
+}
+
+.conclusionfood {
+	width: 935px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 12px;
+}
+
+.conclusionfood img {
+	width: 35px;
+	padding-right: 87px;
+}
+
+
+/*aboutus page*/
+
+.avanttexte {
+	text-align: center;
+	color: #f20e5e;
+	text-decoration: underline;
+	margin: 10px;
+}
+
+.firsttext {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+.subtitleaboutusone {
+	text-align: left;
+	color: #f20e5e;
+	margin-left: 105px;
+	font-size: 20px;
+	margin-bottom: auto;
+}
+
+.containersecond {
+	width: 935px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.containersecond img {
+	width: 911px;
+	height: 350px;
+	padding: 12px;
+}
+
+.containerthird {
+	width: 935px;
+	margin: 0 auto;
+	text-align: center;
+}
+.subtitleaboutusecond {
+	text-align: right;
+	color: #f20e5e;
+	margin-right: 105px;
+	margin-top: 45px;
+	font-size: 20px;
+	margin-bottom: auto;
+}
+
+.middlejap {
+	color: #f20e5e;
+}
+
+.contactus {
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 15px;
+	font-size: 9px;
+	color: #f20e5e;
+}
+
+.contacttitle {
+	text-decoration: underline;
+	font-size: 11px;
+	margin:0px;
+}
+
+.containerfourth {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.containerfourth img {
+	width: 45px;
+}
